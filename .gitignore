@@ -1,0 +1,12 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+
+# 运行时数据（日志 / 截图 / 调试输出）
+runtime/
+
+# IDE/系统杂项
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
