@@ -1,0 +1,8 @@
+{
+  "hideout_anchor": {
+    "path": "ui/hideout_anchor.bmp",
+    "roi": "hideout_anchor",
+    "threshold": 0.95,
+    "description": "藏身处锚点模板，第一版用于验证模板匹配链路。"
+  }
+}

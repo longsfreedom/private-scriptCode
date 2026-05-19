@@ -1,0 +1,30 @@
+{
+  "debug_label": {
+    "x": 40,
+    "y": 40,
+    "width": 240,
+    "height": 80,
+    "description": "用于平台验证和 OCR 调试的固定区域"
+  },
+  "hideout_anchor": {
+    "x": 20,
+    "y": 20,
+    "width": 320,
+    "height": 180,
+    "description": "藏身处固定 UI 锚点区域，后续需要用真实截图重新标定"
+  },
+  "map_device_panel": {
+    "x": 600,
+    "y": 200,
+    "width": 700,
+    "height": 600,
+    "description": "地图装置主面板区域，供 M1 使用"
+  },
+  "unit_test_roi": {
+    "x": 0,
+    "y": 0,
+    "width": 4,
+    "height": 4,
+    "description": "单元测试 ROI"
+  }
+}
