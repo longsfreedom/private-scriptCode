@@ -1,19 +1,22 @@
 {
-  "runtime_mode": "dry_run",
-  "dry_run_mode": true,
+  "runtime_mode": "windows",
+  "dry_run_mode": false,
   "max_state_retry": 2,
   "state_timeout_sec": 15,
   "log_dir": "runtime/logs",
   "screenshot_dir": "runtime/screenshots",
   "debug_dir": "runtime/debug",
   "window_title_keyword": "Path of Exile",
+  "ocr_language": "eng",
+  "ocr_psm": 7,
+  "ocr_tesseract_cmd": "tesseract",
   "template_root": "assets/templates",
   "template_config_path": "config/templates.config.json",
   "roi_config_path": "config/roi.config.json",
   "platform_validation": {
     "screenshot_check_count": 10,
     "template_match_threshold": 0.95,
-    "ocr_confidence_threshold": 0.9,
+    "ocr_confidence_threshold": 0.6,
     "input_success_threshold": 0.95
   }
 }
