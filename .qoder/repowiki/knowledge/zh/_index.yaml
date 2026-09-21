@@ -1,0 +1,45 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+nodes_managed: true
+exported_at: "2026-09-21T03:03:21Z"
+modules:
+    "":
+        dir_name: 流放之路贪婪祭坛自动化脚本与农业气象灾害建议工具集
+        title: 流放之路贪婪祭坛自动化脚本与农业气象灾害建议工具集
+        scope:
+            - README.md
+            - .gitignore
+            - AGENTS.md
+            - development.status.md
+            - disaster.advice.agent.md
+            - technical.plan.md
+            - disaster_advice_agent.py
+            - LICENSE
+        source_files: []
+        children:
+            - config
+            - tools
+        depends_on: []
+        related_to: []
+    config:
+        dir_name: 游戏自动化配置中心
+        title: 游戏自动化配置中心
+        scope:
+            - config/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: tools
+    tools:
+        dir_name: 视觉 ROI 标定与 OCR 调试工具集
+        title: 视觉 ROI 标定与 OCR 调试工具集
+        scope:
+            - tools/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: config

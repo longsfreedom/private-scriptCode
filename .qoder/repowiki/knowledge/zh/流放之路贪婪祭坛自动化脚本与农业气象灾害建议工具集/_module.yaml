@@ -1,0 +1,15 @@
+schema_version: 1
+module_path: ""
+title: 流放之路贪婪祭坛自动化脚本与农业气象灾害建议工具集
+scope:
+    - README.md
+    - .gitignore
+    - AGENTS.md
+    - development.status.md
+    - disaster.advice.agent.md
+    - technical.plan.md
+    - disaster_advice_agent.py
+    - LICENSE
+source_files: []
+depends_on: []
+related_to: []
